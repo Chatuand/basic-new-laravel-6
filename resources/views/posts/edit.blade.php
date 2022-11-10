@@ -31,8 +31,7 @@
                         </div>
                         <div class="form-group">
                             <label for="">Contenido embebido</label>
-                            <textarea name="iframe" class="form-control"
-                                required>{{ old('iframe',$post->iframe)}}</textarea>
+                            <textarea name="iframe" class="form-control">{{ old('iframe',$post->iframe)}}</textarea>
                         </div>
                         <div class="form-group">
                             @csrf
